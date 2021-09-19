@@ -36,4 +36,19 @@ html {
   .discounts {
     visibility: visible;
   }
+  .navbar-menu{
+    visibility: visible;
+  }
+  .navbar-burger{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar-menu{
+    visibility: hidden;
+  }
+  .navbar-burger{
+    visibility: visible;
+  }
 }
