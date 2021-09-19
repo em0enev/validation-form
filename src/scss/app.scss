@@ -32,7 +32,7 @@ html {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .discounts {
     visibility: visible;
   }
@@ -44,11 +44,13 @@ html {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
   .navbar-menu{
+    background-color: red;
     visibility: hidden;
   }
   .navbar-burger{
+    background-color: blue;
     visibility: visible;
   }
 }
