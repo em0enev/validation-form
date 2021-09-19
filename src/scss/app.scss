@@ -26,6 +26,7 @@ html {
   justify-content: center;
   font-size: 10rem;
   flex-flow: column;
+  background-color: $body-color;
 }
 
 .discounts{
@@ -34,6 +35,7 @@ html {
 
 @media only screen and (max-width: 1024px) {
   .discounts {
+    background-color: $text-color;
     visibility: visible;
   }
   .navbar-menu{
