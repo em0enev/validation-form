@@ -37,20 +37,20 @@ html {
     visibility: visible;
   }
   .navbar-menu{
-    visibility: visible;
+    visibility: hidden;
   }
   .navbar-burger{
-    visibility: hidden;
+    visibility: visible;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .navbar-menu{
     background-color: red;
-    visibility: hidden;
+    visibility: visible;
   }
   .navbar-burger{
     background-color: blue;
-    visibility: visible;
+    visibility: hidden;
   }
 }
